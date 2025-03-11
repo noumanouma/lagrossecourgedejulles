@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Business</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .product {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .product:last-child {
+            border-bottom: none;
+        }
+        .discount-code {
+            text-align: center;
+            padding: 10px;
+            background: #ffeb3b;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .contact, .shipping {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="discount-code">
+            Code: AUBERCHERRY70 - Use this code to get a 70% discount on any order!
+        </div>
+        <h1>Agricultural Products</h1>
+        <div class="product">
+            <h2>Product 1</h2>
+            <p>Price per kilo: $10</p>
+            <p>Stock: Available</p>
+        </div>
+        <div class="product">
+            <h2>Product 2</h2>
+            <p>Price per kilo: $15</p>
+            <p>Stock: Unavailable</p>
+        </div>
+        <div class="product">
+            <h2>Product 3</h2>
+            <p>Price per kilo: $8</p>
+            <p>Stock: Available</p>
+        </div>
+        <div class="contact">
+            <h2>Contact Details</h2>
+            <p>Email: your-email@example.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+        <div class="shipping">
+            <h2>Shipping Costs</h2>
+            <p>Cost per kilo: $2</p>
+        </div>
+    </div>
+</body>
+</html>
